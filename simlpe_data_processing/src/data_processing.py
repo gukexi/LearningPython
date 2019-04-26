@@ -61,3 +61,20 @@ print(sorted(bicycles))
 print(bicycles)
 
 print(len(bicycles))
+
+for bicycle in bicycles:
+    print(bicycle)
+    
+numbers = list(range(1,6))
+print(numbers)
+
+squares = [value**2 for value in range(1,11)]
+print(squares)
+print(squares[1:4])
+
+# tuple processing
+dimensions = (200, 50)
+print(dimensions)
+
+dimensions = (250, 100)
+print(dimensions)
