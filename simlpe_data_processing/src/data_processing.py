@@ -78,3 +78,31 @@ print(dimensions)
 
 dimensions = (250, 100)
 print(dimensions)
+
+# dictionary processing
+tickets = {'Fulian4': '40', 'Fantan4': '30'}
+print(tickets)
+print(tickets['Fulian4'])
+tickets['Tiaoyin'] = '30'
+print(tickets)
+del tickets['Fantan4']
+print(tickets)
+
+for key,value in tickets.items():
+    print(key)
+    print(value)
+    
+tickets['Fantan4'] = '30'
+print(tickets)
+
+for key in tickets.keys():
+    print(key)
+    
+for key in sorted(tickets.keys()):
+    print(key)
+    
+for value in tickets.values():
+    print(value)
+    
+for value in set(tickets.values()):
+    print(value)
