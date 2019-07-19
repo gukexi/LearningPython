@@ -1,0 +1,8 @@
+{
+	"Measure_Points_Description": [
+		"<MP:F> 3.29.1.{%02d}.5.0,'TX_PSAT 1cTdLTE5ChL+10 rfPort {%d} Pwr: 3500dBm',#.#,dB,MIN,8",
+		"<MP:F> 3.29.3.{%02d}.5.0,'TX_PSAT no backoff 1cTdLTE5ChL+10 rfPort {%d} Pwr: 3500dBm',#.#,dB,MIN,0"
+	],
+	"Branches": 64,
+	"Continuous": 1
+}
