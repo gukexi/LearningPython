@@ -10,7 +10,7 @@ from modules import dict_handling as dh
 from modules import create_tc_measure_points as ctmp
 
 current_path = p.dirname(__file__)
-json_operate = open(p.join(current_path, 'TC configuration.json'), 'r')
+json_operate = open(p.join(current_path, 'TC_Configuration.json'), 'r')
 tc_operate = open(p.join(current_path, 'TC_Temp.txt'), 'w')
 
 ctmp.creat_comments(dh.list_from_dict(jh.load_json_file(json_operate)), tc_operate)
