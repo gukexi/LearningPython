@@ -1,6 +1,12 @@
 '''
 Created on Jul 18, 2019
 
+The module contains one function.
+The function needs two input parameters.
+The first input parameter is a list.
+The second input parameter is txt file operating.
+The function is to handling the list and save the comments to txt file.
+
 @author: ekexigu
 '''
 
